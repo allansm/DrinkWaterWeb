@@ -40,7 +40,7 @@
 
     <div class="container">
       <div class="row row-offcanvas row-offcanvas-right " style="padding:20px">
-		<h2>${title.toUpperCase()} : ${login.toUpperCase()}</h2>
+		<h2>${title}</h2>
         <div class="col-xs-12 col-sm-9" >
          	<div class="row">
 		        <c:forEach var="copos" items="${lista2}" varStatus="id">
@@ -64,7 +64,7 @@
 						Usuario : ${login}<br/><br/>
 						Data : ${todayCup.getCupDate()}<br/><br/>
 					<form method="post" action="./registrar" class="form">
-						Quantidade : <input class=" " type="number" style="width:50px" name="quantidade"><br/><br/><input type="submit" value="Registrar" class="btn btn-primary btn-lg btn-block">
+						Quantidade : <input class=" " type="number" style="width:50px" name="quantidade"><br/><br/><input type="submit" value="Registrar" class="btn btn-primary btn-lg btn-block" style="border-radius:0px">
 					</form>
 					</div>
 				</c:if>
