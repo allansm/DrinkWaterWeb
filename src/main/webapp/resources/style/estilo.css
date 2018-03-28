@@ -1,0 +1,26 @@
+body{
+	background-image:url("../img/bg.jpg") !important;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+a{
+	color:#eee;
+}
+a:hover{
+	color:#eee;
+}
+.navbar{
+	border-radius:0px;
+}
+.nav li a:hover{
+	background:#337ad9;
+}
+.nav li a:focus, .nav li a:active{
+	background:#337ad9 !important;
+	color:#eee !important;
+}
+span{
+	background:#eee !important;
+}
+.bblue1{background:#337ab7}
+.bwhite1{background:#fff}
